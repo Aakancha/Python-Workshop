@@ -1,0 +1,6 @@
+initial_cost = float(input("How much is  bill amount?"))
+service_quality = int(input("Rate the quality of service?"))
+people_served = int(input("How many people were served?"))
+quality_of_service = (service_quality/100)
+tip = (initial_cost*quality_of_service)/(people_served)
+print("Your tip amount is ",tip)
